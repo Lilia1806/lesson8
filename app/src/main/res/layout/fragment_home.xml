@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/darker_gray"
+    tools:context=".fragment.HomeFragment">
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_cat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:layout_marginTop="100dp"
+        android:backgroundTint="@color/white"
+        android:padding="15dp"
+        android:text="CATS HTTP"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/black"
+        app:cornerRadius="10sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_cinema"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="100dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="180dp"
+        android:padding="15dp"
+        android:text="CINEMA"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        android:textColor="@color/black"
+        app:cornerRadius="15sp" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/bt_language"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:backgroundTint="@color/white"
+        android:layout_marginTop="250dp"
+        android:padding="15dp"
+        android:textSize="18sp"
+        android:textStyle="italic|bold"
+        android:text="PROGRAMMING LANGUAGES"
+        android:textColor="@color/black"
+        app:cornerRadius="15sp" />
+
+</FrameLayout>
